@@ -14,7 +14,7 @@ RUN npm install --production
 COPY server.js .
 
 # Expose the port your Express server is listening on
-EXPOSE 4000
+EXPOSE 8080
 
 # Start the server
 CMD ["node", "server.js"]
