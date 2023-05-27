@@ -12,6 +12,7 @@ RUN npm install --production
 
 # Copy the server.js file to the container
 COPY server.js .
+COPY key.json .
 
 # Expose the port your Express server is listening on
 EXPOSE 8080
