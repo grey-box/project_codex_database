@@ -22,6 +22,7 @@ const textToSpeech = require('@google-cloud/text-to-speech');
 const ttsClient = new textToSpeech.TextToSpeechClient();
 
 async function textToSpeechHelper(text) {
+    console.log('Credentials:', process.env.GOOGLE_APPLICATION_CREDENTIALS);
     const request = {
       input: { text },
       // Select the language and SSML Voice Gender (optional)
