@@ -1,1 +1,13 @@
+# Node.js
 node_modukes
+
+# Ignore environment configuration files
+.env
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore log files and build artifacts
+*.log
+dist/
+build/
